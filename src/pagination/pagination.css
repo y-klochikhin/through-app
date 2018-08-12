@@ -1,0 +1,27 @@
+:host {
+    display: block;
+}
+
+.number, .next, .ellipsis {
+    margin-left: 10px;
+}
+
+.number, .next, .prev {
+    cursor: pointer;
+}
+
+.active {
+    font-weight: bold;
+}
+
+#page-input {
+    width: 20%;
+    float: left;
+    box-sizing: border-box;
+}
+
+#items {
+    text-align: center;
+    width: 80%;
+    float: left;
+}

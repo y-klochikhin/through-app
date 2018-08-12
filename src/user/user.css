@@ -1,0 +1,28 @@
+:host {
+    display: block;
+    width: 100%;
+    float: left;
+    border: 1px solid white;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+:host(.selected) {
+    border-color: gold;
+}
+
+:host([enabled]) {
+    background-color: whitesmoke;
+}
+
+#name {
+    color: #333333;
+    float: left;
+    margin-right: 5px;
+}
+
+#custom {
+    color: gainsboro;
+    font-style: italic;
+    float: left;
+}
