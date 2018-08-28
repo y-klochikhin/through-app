@@ -1,6 +1,6 @@
-require("jsdom-global")();
 import { assert, expect } from "chai";
 import { UserService } from "../src/user-service";
+require("jsdom-global")();
 
 const baseUrl = "https://livedemo.xsolla.com/fe/test-task/baev/users";
 const limit = 5;
